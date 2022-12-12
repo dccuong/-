@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Layout from "./component/Layout";
-import Array from "./page/Array";
+import Array from "./page/Array/Array";
 import Profile from "./page/Profile";
 import Stringg from "./page/String";
 type Props = {};
