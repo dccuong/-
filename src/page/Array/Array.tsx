@@ -49,9 +49,6 @@ const Array = (props: Props) => {
     <div className=" text-gray-300">
       <div className="text-[20px] text-white font-semibold"> <span>{str.toUpperCase()}</span> </div>
       <form onSubmit={handleSubmit(onSubmit)} className="flex ">
-     
-        
-
         <div>
           <input {...register("name", { required: true })} className="mr-2" /> <br />
           {errors.name && <span>This field is required</span>}

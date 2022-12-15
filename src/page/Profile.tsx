@@ -8,6 +8,6 @@ const Profile = (props: Props) => {
       <div></div>
     </>
   );
-};
+};  
 
 export default Profile;
